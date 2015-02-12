@@ -14,7 +14,13 @@ get scanned. It's easy enough to add by hand, so I did.
 			`data.json`.
   * `MRCT.py`: Converts `GIF` to `PNG`.
   * `tiles/`: tiles in `GIF` and `PNG` format.
+  * `tessdata/`: Tesseract data.
 
 ## Required libraries to `MRTS.py`
 See `requirements.txt`. Each of those libraries may have their own
 requirements.
+
+## Setup requirements
+You will need to download and place all of the tiles provided by
+in the class in a `tiles/` directory, as well as `tessdata/`
+provided by Tesseract library.
